@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18448FF01D752EC00004B5D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18448FEF1D752EC00004B5D2 /* main.m */; };
+		18448FF31D752EC00004B5D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18448FF21D752EC00004B5D2 /* AppDelegate.m */; };
+		18448FF61D752EC00004B5D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18448FF51D752EC00004B5D2 /* ViewController.m */; };
+		18448FF91D752EC00004B5D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18448FF71D752EC00004B5D2 /* Main.storyboard */; };
+		18448FFB1D752EC00004B5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18448FFA1D752EC00004B5D2 /* Assets.xcassets */; };
+		18448FFE1D752EC00004B5D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18448FFC1D752EC00004B5D2 /* LaunchScreen.storyboard */; };
+		184490091D752EC00004B5D2 /* zhankaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184490081D752EC00004B5D2 /* zhankaiTests.m */; };
+		184490141D752EC00004B5D2 /* zhankaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184490131D752EC00004B5D2 /* zhankaiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184490051D752EC00004B5D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18448FE31D752EBF0004B5D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18448FEA1D752EBF0004B5D2;
+			remoteInfo = zhankai;
+		};
+		184490101D752EC00004B5D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18448FE31D752EBF0004B5D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18448FEA1D752EBF0004B5D2;
+			remoteInfo = zhankai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18448FEB1D752EBF0004B5D2 /* zhankai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhankai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18448FEF1D752EC00004B5D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18448FF11D752EC00004B5D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18448FF21D752EC00004B5D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18448FF41D752EC00004B5D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18448FF51D752EC00004B5D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18448FF81D752EC00004B5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18448FFA1D752EC00004B5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18448FFD1D752EC00004B5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18448FFF1D752EC00004B5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184490041D752EC00004B5D2 /* zhankaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhankaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184490081D752EC00004B5D2 /* zhankaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zhankaiTests.m; sourceTree = "<group>"; };
+		1844900A1D752EC00004B5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1844900F1D752EC00004B5D2 /* zhankaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhankaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184490131D752EC00004B5D2 /* zhankaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zhankaiUITests.m; sourceTree = "<group>"; };
+		184490151D752EC00004B5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18448FE81D752EBF0004B5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184490011D752EC00004B5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1844900C1D752EC00004B5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18448FE21D752EBF0004B5D2 = {
+			isa = PBXGroup;
+			children = (
+				18448FED1D752EC00004B5D2 /* zhankai */,
+				184490071D752EC00004B5D2 /* zhankaiTests */,
+				184490121D752EC00004B5D2 /* zhankaiUITests */,
+				18448FEC1D752EBF0004B5D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18448FEC1D752EBF0004B5D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18448FEB1D752EBF0004B5D2 /* zhankai.app */,
+				184490041D752EC00004B5D2 /* zhankaiTests.xctest */,
+				1844900F1D752EC00004B5D2 /* zhankaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18448FED1D752EC00004B5D2 /* zhankai */ = {
+			isa = PBXGroup;
+			children = (
+				18448FF11D752EC00004B5D2 /* AppDelegate.h */,
+				18448FF21D752EC00004B5D2 /* AppDelegate.m */,
+				18448FF41D752EC00004B5D2 /* ViewController.h */,
+				18448FF51D752EC00004B5D2 /* ViewController.m */,
+				18448FF71D752EC00004B5D2 /* Main.storyboard */,
+				18448FFA1D752EC00004B5D2 /* Assets.xcassets */,
+				18448FFC1D752EC00004B5D2 /* LaunchScreen.storyboard */,
+				18448FFF1D752EC00004B5D2 /* Info.plist */,
+				18448FEE1D752EC00004B5D2 /* Supporting Files */,
+			);
+			path = zhankai;
+			sourceTree = "<group>";
+		};
+		18448FEE1D752EC00004B5D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18448FEF1D752EC00004B5D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184490071D752EC00004B5D2 /* zhankaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				184490081D752EC00004B5D2 /* zhankaiTests.m */,
+				1844900A1D752EC00004B5D2 /* Info.plist */,
+			);
+			path = zhankaiTests;
+			sourceTree = "<group>";
+		};
+		184490121D752EC00004B5D2 /* zhankaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184490131D752EC00004B5D2 /* zhankaiUITests.m */,
+				184490151D752EC00004B5D2 /* Info.plist */,
+			);
+			path = zhankaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18448FEA1D752EBF0004B5D2 /* zhankai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184490181D752EC00004B5D2 /* Build configuration list for PBXNativeTarget "zhankai" */;
+			buildPhases = (
+				18448FE71D752EBF0004B5D2 /* Sources */,
+				18448FE81D752EBF0004B5D2 /* Frameworks */,
+				18448FE91D752EBF0004B5D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zhankai;
+			productName = zhankai;
+			productReference = 18448FEB1D752EBF0004B5D2 /* zhankai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184490031D752EC00004B5D2 /* zhankaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1844901B1D752EC00004B5D2 /* Build configuration list for PBXNativeTarget "zhankaiTests" */;
+			buildPhases = (
+				184490001D752EC00004B5D2 /* Sources */,
+				184490011D752EC00004B5D2 /* Frameworks */,
+				184490021D752EC00004B5D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184490061D752EC00004B5D2 /* PBXTargetDependency */,
+			);
+			name = zhankaiTests;
+			productName = zhankaiTests;
+			productReference = 184490041D752EC00004B5D2 /* zhankaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1844900E1D752EC00004B5D2 /* zhankaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1844901E1D752EC00004B5D2 /* Build configuration list for PBXNativeTarget "zhankaiUITests" */;
+			buildPhases = (
+				1844900B1D752EC00004B5D2 /* Sources */,
+				1844900C1D752EC00004B5D2 /* Frameworks */,
+				1844900D1D752EC00004B5D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184490111D752EC00004B5D2 /* PBXTargetDependency */,
+			);
+			name = zhankaiUITests;
+			productName = zhankaiUITests;
+			productReference = 1844900F1D752EC00004B5D2 /* zhankaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18448FE31D752EBF0004B5D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ss;
+				TargetAttributes = {
+					18448FEA1D752EBF0004B5D2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					184490031D752EC00004B5D2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18448FEA1D752EBF0004B5D2;
+					};
+					1844900E1D752EC00004B5D2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18448FEA1D752EBF0004B5D2;
+					};
+				};
+			};
+			buildConfigurationList = 18448FE61D752EBF0004B5D2 /* Build configuration list for PBXProject "zhankai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18448FE21D752EBF0004B5D2;
+			productRefGroup = 18448FEC1D752EBF0004B5D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18448FEA1D752EBF0004B5D2 /* zhankai */,
+				184490031D752EC00004B5D2 /* zhankaiTests */,
+				1844900E1D752EC00004B5D2 /* zhankaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18448FE91D752EBF0004B5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18448FFE1D752EC00004B5D2 /* LaunchScreen.storyboard in Resources */,
+				18448FFB1D752EC00004B5D2 /* Assets.xcassets in Resources */,
+				18448FF91D752EC00004B5D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184490021D752EC00004B5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1844900D1D752EC00004B5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18448FE71D752EBF0004B5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18448FF61D752EC00004B5D2 /* ViewController.m in Sources */,
+				18448FF31D752EC00004B5D2 /* AppDelegate.m in Sources */,
+				18448FF01D752EC00004B5D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184490001D752EC00004B5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184490091D752EC00004B5D2 /* zhankaiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1844900B1D752EC00004B5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184490141D752EC00004B5D2 /* zhankaiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184490061D752EC00004B5D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18448FEA1D752EBF0004B5D2 /* zhankai */;
+			targetProxy = 184490051D752EC00004B5D2 /* PBXContainerItemProxy */;
+		};
+		184490111D752EC00004B5D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18448FEA1D752EBF0004B5D2 /* zhankai */;
+			targetProxy = 184490101D752EC00004B5D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18448FF71D752EC00004B5D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18448FF81D752EC00004B5D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18448FFC1D752EC00004B5D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18448FFD1D752EC00004B5D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184490161D752EC00004B5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184490171D752EC00004B5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184490191D752EC00004B5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zhankai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.zhankai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1844901A1D752EC00004B5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zhankai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.zhankai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1844901C1D752EC00004B5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zhankaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.zhankaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhankai.app/zhankai";
+			};
+			name = Debug;
+		};
+		1844901D1D752EC00004B5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zhankaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.zhankaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhankai.app/zhankai";
+			};
+			name = Release;
+		};
+		1844901F1D752EC00004B5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zhankaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.zhankaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zhankai;
+			};
+			name = Debug;
+		};
+		184490201D752EC00004B5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zhankaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.zhankaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zhankai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18448FE61D752EBF0004B5D2 /* Build configuration list for PBXProject "zhankai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184490161D752EC00004B5D2 /* Debug */,
+				184490171D752EC00004B5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184490181D752EC00004B5D2 /* Build configuration list for PBXNativeTarget "zhankai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184490191D752EC00004B5D2 /* Debug */,
+				1844901A1D752EC00004B5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1844901B1D752EC00004B5D2 /* Build configuration list for PBXNativeTarget "zhankaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1844901C1D752EC00004B5D2 /* Debug */,
+				1844901D1D752EC00004B5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1844901E1D752EC00004B5D2 /* Build configuration list for PBXNativeTarget "zhankaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1844901F1D752EC00004B5D2 /* Debug */,
+				184490201D752EC00004B5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18448FE31D752EBF0004B5D2 /* Project object */;
+}
